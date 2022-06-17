@@ -10,3 +10,9 @@
     5.3 organismos: unidades compuestas con estado: formulario.
     5.4 layouts: unidades compuestas con multiples organismos.
 6. Evitar loose-coupling con los estilos
+
+
+## Continuar
+
+7. Añadir estilos continuando con la estructura atómica
+8. Hacer un query-builder con QS (https://www.npmjs.com/package/qs?primer_element=lo_que_sea&segundo_elemento=) en lugar de manejar urls absolutas.
