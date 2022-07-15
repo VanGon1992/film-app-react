@@ -12,14 +12,17 @@ const FooterStyled = styled.div`
   width: 100%;
   height: 10rem;
   background-color: ${colors.secondary};
+
   p {
     color: white;
     font-size: 0.9rem;
     font-family: ${fonts.Montserrat};
     margin-left: 7rem;
   }
+
   .social-icons {
     margin-right: 5rem;
+    
     img {
       width: 2rem;
       height: auto;

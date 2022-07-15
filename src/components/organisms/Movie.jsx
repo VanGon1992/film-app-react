@@ -1,9 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import { Title, Card } from '../atoms'
+import { Title, Card, Paragraph } from '../atoms'
 import { colors, fonts, dimensions } from '../../theme'
-import Paragraph from '../atoms/Paragraph'
 
 const imgPath = 'https://image.tmdb.org/t/p/w500'
 

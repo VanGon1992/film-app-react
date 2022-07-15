@@ -1,6 +1,7 @@
 {
   "extends": ["airbnb", "airbnb/hooks", "react-app", "react-app/jest", "prettier"],
   "rules": {
-    "react/forbid-prop-types": "off"
+    "react/forbid-prop-types": "off",
+    "react/require-default-props": "off"
   }
 }

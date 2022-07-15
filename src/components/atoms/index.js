@@ -1,5 +1,7 @@
 import Card from './Card'
+import InputText from './InputText'
+import Label from './Label'
+import Paragraph from './Paragraph'
 import Title from './Title'
 
-// eslint-disable-next-line import/prefer-default-export
-export { Card, Title }
+export { Card, Title, InputText, Label, Paragraph }
