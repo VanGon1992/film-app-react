@@ -1,6 +1,17 @@
 import React, { useEffect, useState } from 'react'
+import styled from 'styled-components'
 import { Body } from '../components/layout'
 import { Movie } from '../components/organisms'
+import MoviesGrid from '../components/organisms/MoviesGrid'
+
+const HomeStyled = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+`
 
 const apiKey = '&api_key=28fea17ae177cb0a80cedfdbb95dcfb9'
 const baseUrl = 'https://api.themoviedb.org/3'
@@ -59,7 +70,7 @@ function Home() {
   }
 
   return (
-    <>
+    <HomeStyled>
       {/* <div className="header">
         <nav className="navBar">
           <ul className="categorias">
@@ -96,15 +107,15 @@ function Home() {
         </form> */}
       {/* </div> */}
       <Body>
-        <div>
+        <MoviesGrid>
           {movieData.length === 0 ? (
             <p>Film Not Found</p>
           ) : (
-            movieData.map((res, pos) => <Movie id={res.id} info={res} />)
+            movieData.map((data) => <Movie id={data.id} info={data} />)
           )}
-        </div>
+        </MoviesGrid>
       </Body>
-    </>
+    </HomeStyled>
   )
 }
 

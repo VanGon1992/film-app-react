@@ -1,5 +1,5 @@
 const styles = {
-  boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+  boxShadow: '0px 0px 25px rgba(0, 0, 0, 0.9)',
 }
 
 export default styles

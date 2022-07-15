@@ -2,11 +2,12 @@ import styled from 'styled-components'
 import { dimensions, styles } from '../../theme'
 
 const Card = styled.div`
-  background-color: #fff;
-  border-radius: ${dimensions.borderRadius}px;
-  box-shadow: ${styles};
+  box-shadow: ${styles.boxShadow};
   display: flex;
-  align-items: column;
+  flex-direction: column;
+  padding: ${dimensions.padding1}rem;
+  height: 28rem;
+  margin: 0.5rem;
 `
 
 export default Card
